@@ -10,7 +10,7 @@ jobs:
           - name: azure login
             uses: azure/login@v1
             with:
-              cred: ${{secrets.AZURE_CREDENTIALS}}
+              creds: ${{secrets.AZURE_CREDENTIALS}}
           - name: Terraform setup
             uses: hashicorp/setup-terraform@v3
           - name: Terraform Init
