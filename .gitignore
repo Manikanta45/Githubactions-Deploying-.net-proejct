@@ -1,0 +1,93 @@
+############################
+# ASP.NET / .NET
+############################
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider / VS Code / Visual Studio
+.vscode/
+.idea/
+.vs/
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# NuGet
+*.nupkg
+packages/
+!packages/build/
+*.snupkg
+
+# Publish output
+publish/
+wwwroot/lib/
+
+# Test results
+TestResults/
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+############################
+# Terraform
+############################
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform cache directory
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# Crash log files
+crash.log
+
+# Terraform variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+############################
+# Sensitive / environment files
+############################
+
+.env
+.env.*
+
+############################
+# Misc
+############################
+
+*.tmp
+*.temp

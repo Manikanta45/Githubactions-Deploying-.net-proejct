@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <publishIISAssets>True</publishIISAssets> // it is important to set this property to true, otherwise the publish process will not include the necessary files for hosting on IIS
+  </PropertyGroup>
+
+</Project>
